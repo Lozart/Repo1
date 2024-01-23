@@ -1,1 +1,45 @@
 简单明了的Git如门：https://www.bilibili.com/video/BV1Cr4y1J7iQ/?spm_id_from=333.999.0.0&vd_source=aa66a2f9d3385cb556c473f5c7bf6a44
+
+Git基本使用教程：https://www.bilibili.com/video/BV1st411r7Sj?p=8&vd_source=aa66a2f9d3385cb556c473f5c7bf6a44
+
+基本信息设置(1次)：
+git config --global user.name 'Lozart'
+git config --global user.email 'Lozart@Lozart.com'
+git config --list
+名称不对的话可以修改
+
+在文件夹内创建git仓库：
+mkdir filename： make a directory
+cd: change direction  
+pwd:  当前路径  
+git init---> .git存储仓库信息(隐藏文件)
+
+添加文件：
+touch t1.text   (or vim)    
+rm：remove
+git status  提交状态
+git add 工作区域文件添加到暂存区域 new file
+git commit -m "提交"
+git status  nothing to commit
+
+修改/删除文件：
+ls: lists
+vi/vim t1.txt 编辑文件
+get status
+rm -rf t1.txt/右键删除
+git rm t1.txt 删除缓存
+git commit -m "删除"
+
+远端操作：备份，代码共享集中化管理
+git clone https   --如此clone的人便不用连接SSH，可直接push
+clear清屏
+cd t1
+vi t1.txt
+问题没有权限或者无法连接：
+设置权限
+vi .git/config
+修改origin 用户密码
+
+
+Github:
+仓库、收藏、关注、[Fork、pull request]、Merge、[Issue]
