@@ -1,3 +1,9 @@
 github个人网页创建：
-github page 仅仅支持静态网页
-仓库里面只能是.HTML文件
+访问：https://Lozart.github.io
+1.github page 仅仅支持静态网页
+2.仓库里面只能是.HTML文件
+
+项目站点：
+https://Lozart.github.io/仓库名
+1.进入项目主页，setting
+2.Launch automatic page generator
